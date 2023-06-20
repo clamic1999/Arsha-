@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <!-- header section start -->
 <header>
     <div class="navContainer">
        <nav class="navBar">
@@ -24,29 +23,32 @@
                 <li><a href="#Home" class="active">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#Team">Team</a></li>
-                <li><a href="#Drop Down" class="m1">Drop Down</a><i class="fa-solid fa-angle-down fas" style="color:#979ea7;;"></i>
-                    <ul>
-                        <li><a href="">Drop Down 1</a></li>
-                        <li><a href="">Deep Drop Down</a>
-                            <ul>
-                                <li><a href="">Deep Drop Down 1</a></li>
-                                <li><a href="">Deep Drop Down 2</a></li>
-                                <li><a href="">Deep Drop Down 3</a></li>
-                                <li><a href="">Deep Drop Down 4</a></li>
-                                <li><a href="">Deep Drop Down 5</a></li>
-                            </ul>
+                <li><a href="#Dropdown">Dropdown<i class="pin fa-solid fa-chevron-down"></i></a>
+                      <div class="dropdown">
+                        <ul>
+                           <li><a href="#">Drop down 1</a></li>
+                           <li><a href="#">Deep Drop down<i class="set fa-solid fa-chevron-right"></i></a>
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </div>  
                         </li>
-                        <li><a href="">Drop Down 2</a></li>
-                        <li><a href="">Drop Down 3</a></li>
-                        <li><a href="">Drop Down 4</a></li>
-                        <li><a href="">Drop Down 5</a></li>
-                    </ul>   
-                    
-                </li>
+                           <li><a href="#">Drop down 2</a></li>
+                           <li><a href="#">Drop down 3</a></li>
+                           <li><a href="#">Drop down 4</a></li>
+                      </ul>
+                    </div>
+                 </li>
                 <li><a href="#Contact">Contact</a></li>
                 <li><a href="#" class="button">Get Started</a></li>
-              </ul> 
+            </ul> 
             <label for="check" class="checkbtn">
                 <i class="fa-solid fa-bars"></i>
             </label>
@@ -54,9 +56,7 @@
      </nav>
   </div>
 </header>
-<!-- header section end -->
 
-<!-- main section start -->
 <main>
     <section class="Home-container" id="Home">
         <div class="Home">
@@ -524,69 +524,77 @@
                 <textarea required rows="5" cols="30"></textarea>  
             </div> 
             <div class="text-center">
-                <a href="#" class="outer-button">Send Message</a>
+               <a href="#" class="outer-button">Send Message</a>
              </div>
        </div>
     </div>
     </form>
     </section>
-</main>
-<!-- main section end -->
-
-
-<!-- footer section start -->
-<footer>
-    <section class="reviews">
+    <section class="reviews-container">
         <div class="review-text">
             <h1>Join Our Newsletter</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur est atque.</p>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
         </div>
-        <div class="form">
+        <div class="plot">
             <input type="text" name="text" required>
             <a href="#" class="review-button">Subscribe</a>
         </div>
-      </section>
-    <section class="footercontainer align">
-        <div class="box-1">
-            <h2>ARSHA</h2>
-            <p>A108 Adam Street <br> New York, NY 535022 <br>United States</p> <br>
-            <p><strong>Phone :</strong> +1 5589 55488 55</p>
-            <p><strong>Email :</strong> arsha@gmail.com</p>
-        </div>
+    </section>  
+</main>
 
-        <div class="box-2">
-            <h3>Useful Links</h3>
-            <p><i class="fa-solid fa-chevron-right"></i> Home</p>
-            <p><i class="fa-solid fa-chevron-right"></i> About us</p>
-            <p><i class="fa-solid fa-chevron-right"></i> Services</p>
-            <p><i class="fa-solid fa-chevron-right"></i> Terms of Services</p>
-            <p><i class="fa-solid fa-chevron-right"></i> Privacy policy</p>
-        </div>
-        <div class="box-3">
-            <h3>Our Services</h3>
-            <p><i class="fa-solid fa-chevron-right"></i> Web Design</p>
-            <p><i class="fa-solid fa-chevron-right"></i> Web Development</p>
-            <p><i class="fa-solid fa-chevron-right"></i> Product Management</p>
-            <p><i class="fa-solid fa-chevron-right"></i> Marketing</p>
-            <p><i class="fa-solid fa-chevron-right"></i> Graphic Design</p>
-        </div>
-        <div class="box-4">
-            <h3>Our Social Networks</h3>
-            <p>Cras fermentum odio eu feugiat lide <br>par naso tierra videa magna derita <br>valies</p>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-skype"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-        </div>
-    </section>
+<footer class="footer">
+    <div class="sub-container">
+      <div class="sub-align">
+       <div class="sub-plot">
+           <h2>ARSHA</h2>
+           <p>A108 Adam Street New York, NY 535022 United States</p>
+         </div>
+          <div class="sub-1">
+             <h3>E-mail:</h3>
+             <p>info@examplegmail.com</p>
+           </div>
+           <div class="sub-2">
+            <h3>Phone:</h3>
+            <p>+1 5589 55488 55</p>
+          </div>
+        </div> 
+        <div class="sub">
+              <h2>Useful links</h2>
+              <p><i class="fa-solid fa-chevron-right"></i>Home</p>
+              <p><i class="fa-solid fa-chevron-right"></i>About us</p>
+              <p><i class="fa-solid fa-chevron-right"></i>Services</p>
+              <p><i class="fa-solid fa-chevron-right"></i>Terms of Services</p>
+              <p><i class="fa-solid fa-chevron-right"></i>Privacy policy</p>
+          </div>
+          <div class="sub">
+              <h2>Our Services</h2>
+               <p><i class="fa-solid fa-chevron-right"></i>Web design</p>
+               <p><i class="fa-solid fa-chevron-right"></i>Web development</p>
+               <p><i class="fa-solid fa-chevron-right"></i>Product development</p>
+               <p><i class="fa-solid fa-chevron-right"></i>Marketing</p>
+               <p><i class="fa-solid fa-chevron-right"></i>Graphic design</p>
+          </div> 
+
+          <div class="sub">
+            <div class="subletter">
+               <h2>Our Social Networks</h2>
+               <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+               <i class="fa-brands fa-twitter"></i>    
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-skype"></i>
+               <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div> 
+    </div>
     <div class="credit">
         <div class="column">
-            <p>&copy;Copyright ARSHA All Rights Reserved</p>
-            <p>Designed by Kamal <a href="#Home"><i class="daw fa-solid fa-arrow-up fa-2x"></i></a></p>
-        </div>
-    </div>
+         <p>&copy;Copyright <span> Arsha. </span> All Rights Reserved</p>
+         <p>Designed by <span class="span1">Kamal D</span></p>
+      </div>
+    </div>
 </footer>
-<!-- footer section end -->
+
+
 </body>
 </html>
