@@ -57,8 +57,9 @@ header{
     z-index: 2;
     width:100%;
     min-height: 20px;
-    background-color: #37517e ;
- 
+    background: linear-gradient(#37517eb2,#37517ea8);
+    /* background-color: #37517e ; */
+    
    
 }
 
@@ -717,7 +718,9 @@ header{
     font-family: var(--main-font-family);
     margin-top: 40px;
 }
-
+.call-to-action-container .call-to-action-button:hover{
+    background-color: #47b2e4;
+}
 
 
 .Portfolio-container{
